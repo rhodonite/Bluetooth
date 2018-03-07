@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <RelativeLayout
+        android:layout_width="1187px"
+        android:layout_height="1904px"
+        android:background="#000000"
+        android:id="@+id/relative_layout"
+        android:gravity="center"
+        android:layout_centerVertical="true"
+        android:layout_centerHorizontal="true">
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textAppearance="?android:attr/textAppearanceLarge"
+            android:text="可配對裝置清單"
+            android:textColor="#FFFFFF"
+            android:layout_marginTop="60px"
+            android:layout_marginLeft="80px"
+            android:id="@+id/tv_list"
+            android:gravity="left|center"
+            android:textSize="85px" />
+
+        <ListView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:id="@+id/listView"
+            android:layout_alignParentTop="true"
+            android:background="#FFFFFF"
+            android:layout_marginLeft="50px"
+            android:layout_marginRight="50px"
+            android:layout_marginBottom="50px"
+            android:layout_marginTop="300px"
+            android:divider="@null" />
+
+    </RelativeLayout>
+</RelativeLayout>
